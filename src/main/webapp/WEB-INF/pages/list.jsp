@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
-        <title>$Title$</title>
+        <title>Title</title>
     </head>
     <body>
-        $END$
+        <h3>查询了所有的账户信息</h3>
     </body>
 </html>
