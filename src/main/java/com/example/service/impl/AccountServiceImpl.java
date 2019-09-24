@@ -2,9 +2,11 @@ package com.example.service.impl;
 
 import com.example.domain.Account;
 import com.example.service.IAccountService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service("accountService")
 public class AccountServiceImpl implements IAccountService {
     @Override
     public List<Account> findAll() {
